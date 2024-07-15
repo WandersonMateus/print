@@ -1,7 +1,50 @@
-* {
-    font-family: arial;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+.introducao {
+    margin-bottom: 20px;
+}
+
+.introducao h2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .int {
-    margin: 15px 0;
+    margin: 10px 0;
+}
+
+.int a {
+    text-decoration: none;
+    color: #333;
+    background-color: #e7e7e7;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.int a:hover {
+    background-color: #4CAF50;
+    color: white;
 }
